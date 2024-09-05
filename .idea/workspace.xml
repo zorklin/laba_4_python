@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="Andrii Fedorchenkov">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725553243078</updated>
     </task>
+    <task id="LOCAL-00001" summary="Andrii Fedorchenkov">
+      <option name="closed" value="true" />
+      <created>1725555184773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725555184773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Andrii Fedorchenkov" />
+    <option name="LAST_COMMIT_MESSAGE" value="Andrii Fedorchenkov" />
   </component>
 </project>

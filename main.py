@@ -6,7 +6,7 @@ string = ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
 
 #Функція обробки Федорченков Андрій. Функція переводить всі символи в
 #верхній реестр, далі заміняє O на !, а потім розвертає кожне слово в рядку
-def process_text(input_string):
+def process_text_first(input_string):
     #верхній регістр
     change_str = input_string.upper()
 
@@ -20,7 +20,7 @@ def process_text(input_string):
     return change_str
 
 #викликаємо функцію
-change_string = process_text(string)
+change_string = process_text_first(string)
 
 #виводимо результат
 print("Result:", change_string)
