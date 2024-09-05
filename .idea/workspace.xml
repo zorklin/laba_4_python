@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="Andrii Fedorchenkov, change name func">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="Andrii Fedorchenkov, change ! on o" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,12 +97,30 @@
       <option name="project" value="LOCAL" />
       <updated>1725557495698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Andrii Fedorchenkov, change ! on O">
+      <option name="closed" value="true" />
+      <created>1725558712364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725558712364</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Andrii Fedorchenkov, change ! on o">
+      <option name="closed" value="true" />
+      <created>1725558790796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725558790796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Andrii Fedorchenkov" />
     <MESSAGE value="Andrii Fedorchenkov, change name func" />
-    <option name="LAST_COMMIT_MESSAGE" value="Andrii Fedorchenkov, change name func" />
+    <MESSAGE value="Andrii Fedorchenkov, change ! on O" />
+    <MESSAGE value="Andrii Fedorchenkov, change ! on o" />
+    <option name="LAST_COMMIT_MESSAGE" value="Andrii Fedorchenkov, change ! on o" />
   </component>
 </project>
