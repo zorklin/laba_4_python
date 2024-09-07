@@ -19,8 +19,25 @@ def process_text_first(input_string):
     #повертаємо результат
     return change_str
 
+
+
+
 #викликаємо функцію
 change_string = process_text_first(string)
+
+#виводимо результат
+print("Result:", change_string)
+
+def process_text_second(input_string):
+
+
+    changed_string = input_string.title() #Верхній регістр першої літери кожного слова
+
+
+    return  changed_string
+
+#викликаємо функцію
+change_string = process_text_second(change_string)
 
 #виводимо результат
 print("Result:", change_string)
