@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="Andrii Fedorchenkov">
+    <list default="true" id="caff0949-925d-4f12-aa0e-87d5c7111cab" name="Changes" comment="Added new two functions &quot;Replace&quot; and &quot;Swapcase&quot; by Popov Maksym">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;popov&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Максим/OneDrive/Звіти до практичних робіт/2 курс/Програмування мовою Python/Лаб4/laba_4_python&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "popov",
+    "last_opened_file_path": "C:/Users/Максим/OneDrive/Звіти до практичних робіт/2 курс/Програмування мовою Python/Лаб4/laba_4_python",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="laba_4_python" />
@@ -135,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725562025505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new two functions &quot;Replace&quot; and &quot;Swapcase&quot; by Popov Maksym">
+      <option name="closed" value="true" />
+      <created>1725724436055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725724436055</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +155,8 @@
     <MESSAGE value="Andrii Fedorchenkov, change ! on O" />
     <MESSAGE value="Andrii Fedorchenkov, change ! on o" />
     <MESSAGE value="Andrii Fedorchenkov" />
-    <option name="LAST_COMMIT_MESSAGE" value="Andrii Fedorchenkov" />
+    <MESSAGE value="Added new two functions &quot;Replace&quot; and &quot;Swapcase&quot; by Popov Maksym" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new two functions &quot;Replace&quot; and &quot;Swapcase&quot; by Popov Maksym" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/laba_4_python$main.coverage" NAME="main Coverage Results" MODIFIED="1725723906421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
