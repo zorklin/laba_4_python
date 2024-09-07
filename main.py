@@ -33,6 +33,9 @@ def process_text_second(input_string):
 
     changed_string = input_string.title() #Верхній регістр першої літери кожного слова
 
+    changed_string = changed_string.replace(" ", "_")  # Заміна пробіла символом "_"
+
+    changed_string = changed_string.swapcase()  # Заміна малих літер великими і навпаки
 
     return  changed_string
 
