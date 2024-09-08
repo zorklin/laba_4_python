@@ -50,3 +50,25 @@ change_string = process_text_second(change_string)
 
 #виводимо результат
 print("Result:", change_string)
+
+#Функція обробки Меша Павло. Функція визначае довжину рядка,
+# кількість літер P у рядку та розбивае рядок за пробілом.
+def mesha(string):
+
+    # Визначимо довжину рядка
+    l = len(string)
+    print("Довжина рядка :", l)
+
+    # Підрахуємо кількість літери P у рядку
+    l1 = string.count('P')
+    print("Кількість літери P у рядку :", l1)
+
+    # Розіб'ємо рядок за пробілом
+    l2 = string.split(' ')
+
+    return l2
+
+
+change_string_1 = mesha(string)
+#виводимо результат
+print("Result mesha:", change_string_1)
