@@ -5,9 +5,8 @@ string = ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
           "consectetur adipiscing morbi.")
 
 #Функція обробки Федорченков Андрій. Функція переводить всі символи в
-#верхній реестр, далі заміняє O на !, а потім розвертає кожне слово в рядку
+#верхній регістр, далі заміняє O на o, а потім розвертає кожне слово в рядку
 def process_text_first(input_string):
-
     #верхній регістр
     change_str = input_string.upper()
 
@@ -19,6 +18,7 @@ def process_text_first(input_string):
 
     #повертаємо результат
     return change_str
+
 #Функція обробки Меша Павло. Функція визначае довжину рядка,
 # кількість літер P у рядку та розбивае рядок за пробілом.
 def mesha(string):
@@ -39,9 +39,35 @@ def mesha(string):
 #викликаємо функцію
 change_string = process_text_first(string)
 
-change_string_1 = mesha(string)
-
 #виводимо результат
 print("Result:", change_string)
 
-print(change_string_1)
+change_string_1 = mesha(string)
+
+#виводимо результат
+print("Result:", change_string_1)
+
+
+
+def process_text_second(input_string):
+    __doc__ = '''Функція обробки Попов Максим.
+
+        Функція перетворює кожне слово так, щоб всі вони починались великою літерою, а всі інші літери робить малими.
+        Замінює пробіли нижнім підкресленням.
+        Замінює літери верхнього регістра нижніми і навпаки.
+        '''
+
+
+    changed_string = input_string.title() #Верхній регістр першої літери кожного слова
+
+    changed_string = changed_string.replace(" ", "_")  # Заміна пробіла символом "_"
+
+    changed_string = changed_string.swapcase()  # Заміна малих літер великими і навпаки
+
+    return  changed_string
+
+#викликаємо функцію
+change_string = process_text_second(change_string)
+
+#виводимо результат
+print("Result:", change_string)
