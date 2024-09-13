@@ -72,3 +72,30 @@ def mesha(string):
 change_string_1 = mesha(string)
 #виводимо результат
 print("Result mesha:", change_string_1)
+
+
+
+# Функція обробки Плутенка Олексія. Функція:
+# - Замінює кожен третій символ у рядку на символ '#'.
+# - Видаляє всі малі літери з рядка.
+# - Визначає кількість літер у рядку, що є голосними, і додає "(Vowels: кількість)" в кінці.
+
+def process_text_fourth(input_string):
+    # 1. Замінюємо кожен третій символ на '#'
+    modified_string = ''.join([char if (i + 1) % 3 != 0 else '#' for i, char in enumerate(input_string)])
+
+    # 2. Видаляємо всі малі літери з рядка
+    modified_string = ''.join([char for char in modified_string if not char.islower()])
+
+    # 3. Рахуємо кількість голосних літер
+    vowels = "AEIOUY"
+    vowels_count = sum(1 for char in modified_string if char in vowels)
+    # Додаємо кількість голосних у вигляді "(Vowels: кількість)" в кінці
+    modified_string += f"\nVowels: {vowels_count}"
+
+    return modified_string
+
+# Викликаємо функцію
+change_string_2 = process_text_fourth(change_string)
+# Виводимо результат
+print("Result fourth (Plutenko):", change_string_2)
